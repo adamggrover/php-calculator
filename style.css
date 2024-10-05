@@ -1,0 +1,40 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 1rem;
+    background-color: rgb(86, 86, 142);
+    color: white;
+    text-align: center;
+    
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+p.error{
+    color: rgb(238, 10, 10);
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 50%;
+    margin: 2rem auto;
+}
+
+button{
+    margin-top: 1rem;
+}
+
